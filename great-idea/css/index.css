@@ -63,4 +63,91 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+body {
+	margin: 0 auto;
+	width: 600px;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+nav a{
+	text-decoration: none;
+	color: grey;
+	padding: 15px;
+	font-size: 12px;
+}
+.logo {
+	display: flex;
+	align-self: center;
+	width: 100px;
+	height: 20px;
+}
+.tagline-container {
+	margin: 20px 0px 40px 0px;
+	text-align: center;
+	border-bottom: 1px solid black;
+	display: flex;
+	height: 300px;
+}
+.tagline {
+	font-size: 45px;
+	padding: 40px;
+	text-align: center;
+}
+.code-image {
+	width: 250px;
+	height: 250px;	
+}
+button {
+	margin: 0;
+	display: block;
+	margin: -151px 0px 110px 81px;
+	width: 100px;
+}
+.text-container {
+	display: flex;
+}
+.features {
+	width: 280px;
+	margin-right: 20px;
+}
+.about {
+	width: 280px;
+}
+.middle-img {
+	margin: 30px 0px 30px 0px;
+	width: 600px;
+}
+.content-container2 {
+	border-bottom: 1px solid black;
+}
+.text-container2 {
+	display: flex;
+}
+.services {
+	width: 30%;
+	margin: 0px 20px 30px 0px;
+}
+.product {
+	width: 30%;
+	margin: 0px 20px 30px 0px;
+}
+.vision {
+	width: 30%;
+	margin: 0px 0px 30px 0px;
+}
+.address {
+	margin-bottom: 15px;
+}
+.number {
+	margin-bottom: 15px;
+}
+address {
+	margin: 30px 0px 30px 0px;
+}
+footer {
+	text-align: center;
+	font-size: 12px;
+}
