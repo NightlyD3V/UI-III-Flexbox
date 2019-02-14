@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 body {
 	margin: 0 auto;
-	width: 600px;
+	width: 700px;
 }
 nav {
 	display: flex;
@@ -93,7 +93,7 @@ nav a{
 }
 .tagline {
 	font-size: 45px;
-	padding: 40px;
+	padding: 100px;
 	text-align: center;
 }
 .code-image {
@@ -103,7 +103,7 @@ nav a{
 button {
 	margin: 0;
 	display: block;
-	margin: -151px 0px 110px 81px;
+	margin: -96px 0px 52px 139px;
 	width: 100px;
 }
 .text-container {
@@ -111,14 +111,14 @@ button {
 }
 .features {
 	width: 280px;
-	margin-right: 20px;
+	margin-right: 100px;
 }
 .about {
 	width: 280px;
 }
 .middle-img {
 	margin: 30px 0px 30px 0px;
-	width: 600px;
+	width: 700px;
 }
 .content-container2 {
 	border-bottom: 1px solid black;
